@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let youtubeMusicURL = URL(string: "https://music.youtube.com")!
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        WebView(url: youtubeMusicURL)
+            .frame(minWidth: 1200, minHeight: 800)
     }
 }
 

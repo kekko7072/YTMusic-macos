@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF6023F12EB8FFC6005F107F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF6023F02EB8FFC6005F107F /* README.md */; };
+		BFBB94982EB8FA9500D9F191 /* original-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBB94972EB8FA9500D9F191 /* original-icon.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		BF24E1D72EB8FA1200DC99D8 /* YTMusic-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YTMusic-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF24E1D72EB8FA1200DC99D8 /* YTMusic-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "YTMusic-macos.app"; path = "YTMusic (by kekko).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6023F02EB8FFC6005F107F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFBB94972EB8FA9500D9F191 /* original-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "original-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		BF24E1CE2EB8FA1200DC99D8 = {
 			isa = PBXGroup;
 			children = (
+				BF6023F02EB8FFC6005F107F /* README.md */,
+				BFBB94972EB8FA9500D9F191 /* original-icon.png */,
 				BF24E1D92EB8FA1200DC99D8 /* YTMusic-macos */,
 				BF24E1D82EB8FA1200DC99D8 /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6023F12EB8FFC6005F107F /* README.md in Resources */,
+				BFBB94982EB8FA9500D9F191 /* original-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +261,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "YTMusic-macos/YTMusic-macos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -259,6 +271,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YTMusic (by kekko)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -266,7 +279,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "francesco.vezzani.YTMusic-macos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "YTMusic (by kekko)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "YTMusic-macos/YTMusic-macos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -291,6 +305,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YTMusic (by kekko)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,7 +313,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "francesco.vezzani.YTMusic-macos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "YTMusic (by kekko)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
