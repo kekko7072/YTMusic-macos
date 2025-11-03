@@ -14,7 +14,7 @@ A ridiculously simple macOS app that wraps YouTube Music in a window. That's it.
 ## Setup
 
 1. Open `YTMusic-macos.xcodeproj` in Xcode
-2. Hit ?+R to build and run
+2. Hit CMD+R to build and run
 3. Log in once
 4. Never log in again (until you do something dumb)
 
@@ -46,4 +46,3 @@ MIT - Do whatever you want. It's a wrapper around a website.
 ---
 
 **P.S.** If YouTube changes something and this breaks, blame them, not me.
-# YTMusic-macos
