@@ -14,5 +14,10 @@
 	<true/>
 	<key>com.apple.security.cs.allow-unsigned-executable-memory</key>
 	<true/>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read</key>
+	<array>
+		<string>/Library/Fonts/</string>
+		<string>/System/Library/Fonts/</string>
+	</array>
 </dict>
 </plist>
